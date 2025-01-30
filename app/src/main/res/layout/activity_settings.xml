@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Account Settings Section -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Account Settings"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Switch
+        android:id="@+id/privateAccountSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Private Account"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Notification Settings -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notifications"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Switch
+        android:id="@+id/friendActivitySwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Friend Activity"
+        android:layout_marginBottom="8dp"/>
+
+    <Switch
+        android:id="@+id/newSongsSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Songs"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Storage Settings -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Storage"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Switch
+        android:id="@+id/downloadOverWifiSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download over Wi-Fi only"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Account Actions -->
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>

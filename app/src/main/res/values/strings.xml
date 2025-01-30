@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MusicMilesGroup17</string>
+    <string name="click_to_open_menu">Click to open menu.</string>
+    <string name="music_blocks_home">Click on a song or playlist to listen!</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
